@@ -1,17 +1,17 @@
-#Classifying Handwritten Digits
+# Classifying Handwritten Digits
 Dash application demonstrating a giotto-tda pipeline for classifying handwritten digits.
 
 The code *closely* follows the giotto-tda tutorial found [here](https://giotto-ai.github.io/gtda-docs/latest/notebooks/MNIST_classification.html).
 
-##Using the Dashboard
+## Using the Dashboard
 A live deployment of the dashboard can be found [here](http://digitidentificationtda-env.eba-g7vvbzer.us-west-2.elasticbeanstalk.com/). To use the dashboard, draw a single digit in the canvas and click the **Process** button. Shortly after, the estimator result should post alongside a series of plots showing the pipeline used for the handwritten digit.
 
 ![Example Image](data/example_image.JPG)
 
-##Understanding the Plots
+## Understanding the Plots
 See [giotto-tda](https://giotto-ai.github.io/gtda-docs/0.5.1/library.html).
 
-##Backend Estimator
+## Backend Estimator
 The pipeline showed by the plots on the dashboard is a simplified version of what is actually used on the backend. A pickled version of the actual estimator pipeline can be found [here](data/model_pipeline.sav). To load this pipeline simply run:
 
 ```python
