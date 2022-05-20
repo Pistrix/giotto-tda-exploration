@@ -262,7 +262,7 @@ app.layout = html.Div(
 
 def preprocess_mask(string):
     '''
-    Use PIL to reshape the canvas data to 28x28 (aligning with MNST).
+    Use PIL to reshape the canvas data to 28x28 (aligning with MNIST).
     Returns a PIL friendly version and numpy friendly version for backend processing
     '''
     # Get mask from json data
