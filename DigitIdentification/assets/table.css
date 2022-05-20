@@ -1,0 +1,18 @@
+.upper-table {
+   table-layout: fixed;
+   width: 100%;
+}
+
+.lower-table {
+   table-layout: fixed;
+   width: 100%;
+}
+
+.plot-center {
+     display: grid;
+     place-items: center;
+}
+
+td {
+   text-align: center;
+}

@@ -1,0 +1,25 @@
+.canvas {
+   margin: auto;
+   width: 50%;
+   display: grid;
+   place-items: center;
+}
+
+.canvas-text {
+   font-size: 16px;
+   font-family: verdana, arial, sans-serif;
+   color: white;
+   text-align: center;
+}
+
+.result-above-text {
+   font-size: 32px;
+   font-family: verdana, arial, sans-serif;
+   color: white;
+}
+
+.result-below-text {
+   font-size: 40px;
+   font-family: verdana, arial, sans-serif;
+   color: white;
+}

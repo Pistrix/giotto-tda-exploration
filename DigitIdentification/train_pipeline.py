@@ -96,5 +96,5 @@ X_train, X_test, y_train, y_test = train_test_split(
 model.fit(X_train, y_train)
 print(model.score(X_test, y_test))
 
-filename_model = 'model_pipeline.sav'
+filename_model = 'data/model_pipeline.sav'
 pickle.dump(model, open(filename_model, 'wb'))
